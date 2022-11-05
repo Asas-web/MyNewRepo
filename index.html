@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="Container">
+    <div class="header">
+        <h1>DojoWeather</h1>
+        <ul>
+            <li onclick="Showalert()">Burbank</li>
+            <li onclick="Showalert()">Chicago</li>
+            <li onclick="Showalert()">Dallas</li>
+        </ul>
+    </div>
+    
+
+    <div class="Controller">
+        <h2>San Jones</h2>
+        <div>
+            <span>Show temperature in</span>
+            <select onchange="ChangeTheTemp()">
+                <option >^C</option>
+                <option >^F</option>
+            </select>
+        </div>
+    </div>
+    <div class="Status">
+        <div class="Today">
+            <h2>Today</h2>
+            <img src="../Input/some_clouds.png">
+            <h3>some cloud</h3>
+            <div>
+                <span style="color:blue;" id="s1">24</span>
+                <span style="color:red;" is="s2">18</span>
+            </div>
+        </div>
+        <div class="Today">
+            <h2>Tommorow</h2>
+            <img src="../Input/some_sun.png">
+            <h3>some sun</h3>
+            <div>
+                <span style="color:blue;" id="s3">18</span>
+                <span style="color:red;" id="s4">27</span>
+            </div>
+        </div>
+        <div class="Today">
+            <h2>Tuesday</h2>
+            <img src="../Input/some_rain.png">
+            <h3>some rain</h3>
+            <div>
+                <span style="color:blue;" id="s5">20</span>
+                <span style="color:red;" id="s6">30</span>
+            </div>
+        </div>
+        <div class="Today">
+            <h2>Wednesday</h2>
+            <img src="../Input/some_sun.png">
+            <h3>some sun</h3>
+            <div>
+                <span style="color:blue;" id="s7">17</span>
+                <span style="color:red;" id="s8">29</span>
+            </div>
+        </div>
+       
+    </div>
+    <div class="Cookies" id="Cookiess">
+        <img src="../Input/cookie.png">
+        <div>
+            <P  style="font-size: 1.5em;">Stop! Cookie Time</P>
+            <p>We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking "Accept All", you consent to our use of cookies. 
+                <a href="www.google.com">Read More</a> </p>
+                
+        </div>
+        <button onclick="HideElement()">I Accept</button>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+
+   
+
+
+
+ 
+</body>
+</html>

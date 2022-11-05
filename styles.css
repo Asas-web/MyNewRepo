@@ -1,0 +1,105 @@
+
+.Container{
+    font-family: "Times New Roman", Times, serif;
+}
+.header{
+    background-color: rgb(135, 230, 243);
+    width: 100%;
+    display: flex;
+    height: 100px;
+    color: azure;
+   
+}
+.header h1{
+    font-size:2.5em ;
+    flex: 2;
+}
+.header ul{
+    flex:3;
+    display: flex;
+    list-style-type: none;
+    justify-content:space-around;
+    align-items: center;
+  margin: 0;
+  padding: 0;
+
+}
+li{
+   
+    font-size: 2em;
+    color: azure;
+    cursor: pointer;
+    
+}
+.Controller{
+    display: flex;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Controller h2{
+    
+    font-size:2em ;
+}
+.Controller div span,select{
+    font-size:2em ;
+}
+.Status{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+   margin-left:450px;
+
+}
+.Today{
+    
+    background-color: rgb(204, 229, 252);
+    flex: 1;
+    border: 1px solid rgb(204, 229, 252) ;
+    margin: 20px;
+    padding: 10px;
+}
+.Today img{
+    width: 100px;
+    border-radius: 60px;
+    margin-left:30px;
+}
+.Today h2{
+    margin-left:50px;
+}
+.Today div span{
+    margin-left:50px;
+    font-size: 2em;
+    color: brown;
+}
+
+.Today h3{
+    margin-left:30px;
+    font-size: 2em;
+}
+.Cookies{
+ background-color: rgb(164, 206, 243);
+ border: 2px solid black;
+ display: flex;
+ width: 1000px;
+ margin-left:450px;
+ position: Fixed;
+
+}
+.Cookies img{
+    
+    width: 100px;
+}
+
+.Cookies button{
+    width:100px;
+    height:40px;
+    background-color: aquamarine;
+    box-shadow: 5px 5px 5px black;
+    
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 800px;
+}
